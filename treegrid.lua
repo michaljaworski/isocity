@@ -65,7 +65,7 @@ function treegrid:draw()
       --local rl = math.random(0,8)
       
       --draw trees if grid has allowable terrain
-      if (treeson and ((grid[kx][ky] == 1) or (grid[kx][ky] == 21) or (grid[kx][ky] == 22) or (grid[kx][ky] == 31) or (grid[kx][ky] == 32) or (grid[kx][ky] == 33) or (grid[kx][ky] == 34) or (grid[kx][ky] == 35) or (grid[kx][ky] == 36) or (grid[kx][ky] == 37) or (grid[kx][ky] == 38) or (grid[kx][ky] == 39) or (grid[kx][ky] == 40))) then
+      if (treeson and ((grid[ky][kx] == 1) or (grid[ky][kx] == 21) or (grid[ky][kx] == 22) or (grid[ky][kx] == 31) or (grid[ky][kx] == 32) or (grid[ky][kx] == 33) or (grid[ky][kx] == 34) or (grid[ky][kx] == 35) or (grid[ky][kx] == 36) or (grid[ky][kx] == 37) or (grid[ky][kx] == 38) or (grid[ky][kx] == 39) or (grid[ky][kx] == 40))) then
         if c == 0 then
           --don't draw any trees
         end
